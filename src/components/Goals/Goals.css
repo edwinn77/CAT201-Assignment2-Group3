@@ -1,0 +1,108 @@
+.Goals{
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.left-g{
+    display: flex;
+    flex: 1 1;
+    gap:2rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
+}
+
+.left-g>:nth-child(1){
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.left-g>:nth-child(2){
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.left-g>:nth-child(3){
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.left-g>:nth-child(3):hover{
+    background: var(--planCard);
+    cursor: pointer;
+}
+
+.right-g{
+    padding: 3.1rem;
+    display: flex;
+    flex: 1 1;
+    gap:2rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
+}
+
+.right-g>:nth-child(1){
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.right-g>:nth-child(2){
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.right-g>:nth-child(2):hover{
+    background: var(--planCard);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .Goals{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .left-g{
+        padding: 2rem;
+        align-items: center;
+    }
+
+    .right-g{
+        padding: 2rem;
+        align-items: center;
+    }
+
+    .left-g>:nth-child(3){
+       border-radius: 20px;
+       width: 100%;
+       text-align: center;
+    }
+
+    .right-g>:nth-child(2){
+        border-radius: 20px;
+        width: 100%;
+        text-align: center;
+     }
+}
