@@ -7,10 +7,10 @@
 }
 
 .footer{
-    padding: 1rem 2rem;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 0rem;
     align-items: center;
     justify-content: center;
     height: 20rem;
@@ -28,7 +28,7 @@
 }
 
 .logo-f>img{
-    width: 10rem;
+    width: 18rem;
 }
 
 .blur-f-1{

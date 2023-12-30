@@ -84,10 +84,16 @@
     .testimonials{
         flex-direction: column;
     }
+
+    .left-t{
+        text-align: center;
+    }
     .left-t>:nth-child(2)
     ,.left-t>:nth-child(3)
     {
-        font-size: large;
+        font-size: small;
+        line-height: 1.5rem;
+        text-align: center;
     }
     .right-t{
         display: flex;

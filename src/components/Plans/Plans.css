@@ -94,4 +94,8 @@
     .plans>.plan:nth-child(2){
         transform: none;
     }
+    .programs-header>:nth-child(2)
+    {
+        transform:translate(17%,15%);
+    }
 }

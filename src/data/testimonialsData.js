@@ -25,7 +25,7 @@ export const testimonialsData = [
   },
   {
     image : image4,
-    review: "As Furnituro's CIO, I lead our digital transformation, providing a seamless online experience to match the quality of our furniture. Our website is more than an online store; it's a place to explore famous collections, access expert design advice, and visualize transformations. We invest in cutting-edge technology, offering virtual room planning and secure transactions to enhance your online shopping journey. Thank you for choosing Furnituro for the finest furniture and exceptional service.",
+    review: "As Furnituro's CIO, I lead our digital transformation, providing a seamless online experience to match the quality of our furniture. Our website is a place to explore famous collections, access expert design advice, and visualize transformations. We invest in cutting-edge technology, offering virtual room planning and secure transactions to enhance your online shopping journey. Thank you",
     name: 'HONG JINGLONG',
     status: "CIO (Chief Information Officer)"
   }

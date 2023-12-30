@@ -21,7 +21,7 @@
 .category{
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgba(169, 169, 169, 0.604);
     padding: 2rem;
     gap: 1rem;
     color: white;

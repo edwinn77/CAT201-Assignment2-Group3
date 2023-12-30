@@ -68,6 +68,7 @@ const Hero = () => {
               <buttons className="btn">Learn More</buttons>
             </div>
         </div>
+        {/*right-h*/}
       <div className="right-h">
         <button className="btn">Shop Now</button> 
         <div className="main">

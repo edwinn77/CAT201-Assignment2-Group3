@@ -98,11 +98,13 @@
        border-radius: 20px;
        width: 100%;
        text-align: center;
+       line-height: 30px;
     }
 
     .right-g>:nth-child(2){
         border-radius: 20px;
         width: 100%;
         text-align: center;
+        line-height: 30px;
      }
 }
